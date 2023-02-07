@@ -4,7 +4,7 @@ const express = require('express')
 const passport = require('passport')
 
 // pull in Mongoose model for golfer
-const Example = require('../models/golfer')
+const Golfer = require('../models/golfer')
 
 // this is a collection of methods that help us detect situations when we need
 // to throw a custom error
