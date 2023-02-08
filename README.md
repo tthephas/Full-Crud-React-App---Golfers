@@ -36,4 +36,4 @@
 |--------|------------------------|-------------------|
 | POST   | `/toys/:petId`         | `toys#create`    |
 | PATCH  | `/toys/:petId/:toyId`  | `toys#update`  |
-| DELETE | `/toys/:petId/:toyId`   | `toys#delete`   |
+| DELETE | `/toys/:petId/:toyId`   | `toys#delete`   |# Full-Crud-React-App---Golfers
