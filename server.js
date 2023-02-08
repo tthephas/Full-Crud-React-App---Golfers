@@ -5,6 +5,7 @@ const cors = require('cors')
 
 // require route files
 const golferRoutes = require('./app/routes/golfer_routes')
+const statRoutes = require('./app/routes/stat_routes')
 const userRoutes = require('./app/routes/user_routes')
 
 // require middleware
@@ -66,6 +67,7 @@ app.use(requestLogger)
 
 // register route files
 app.use(golferRoutes)
+app.use(statRoutes)
 app.use(userRoutes)
 
 // register error handling middleware
