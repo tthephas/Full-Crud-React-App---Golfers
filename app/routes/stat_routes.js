@@ -65,7 +65,7 @@ router.delete('/stats/:golferId/:statId', requireToken, (req, res, next) => {
 
     Golfer.findById(golferId)
         .then(handle404)
-        .then((pet) => {
+        .then((golfer) => {
             const theStat = golfer.stats.id(statId)
             requireOwnership(req, golfer)
             theStat.remove()
