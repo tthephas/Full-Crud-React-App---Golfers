@@ -26,14 +26,14 @@
 | DELETE | `/sign-out`            | `users#signout`   |
 
 
-##Toys
+##Stats
 
 #Routes
-## need to fix from toys to something for golfers
-## maybe championships, equipment, sponsors
+ 
+The routes for all the golfers STATS
 
 | Verb   | URI Pattern            | Controller#Action |
 |--------|------------------------|-------------------|
-| POST   | `/toys/:petId`         | `toys#create`    |
-| PATCH  | `/toys/:petId/:toyId`  | `toys#update`  |
-| DELETE | `/toys/:petId/:toyId`   | `toys#delete`   |# Full-Crud-React-App---Golfers
+| POST   | `/stats/:golferId`         | `stats#create`    |
+| PATCH  | `/stats/:golferId/:statId`  | `stats#update`  |
+| DELETE | `/stats/:golferId/:statId`   | `stats#delete`   |# 
